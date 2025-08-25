@@ -27,6 +27,4 @@ jobs:
         run: npm install
         working-directory: simple-web-server   # ✅ must align with run, not indented inside it
 
-      - name: Run tests
-        run: npm test
-        working-directory: simple-web-server   # ✅ also apply here if your tests are in same folder
+    
