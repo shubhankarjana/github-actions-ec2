@@ -24,6 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: simple-web-server
 
       - name: Run tests
         run: npm test
