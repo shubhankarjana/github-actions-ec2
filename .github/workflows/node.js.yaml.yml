@@ -27,4 +27,4 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: Build
-        path: simple-web-server/dist   # 👈 adjust path so it matches where build outputs
+        path: simple-web-server/   # 👈 adjust path so it matches where build outputs
